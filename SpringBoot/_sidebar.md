@@ -1,9 +1,8 @@
-- [前言](/)
-
-- [Java 基础](Java基础/)
-- [Spring](Spring/) 
-- [Spring MVC](/SpringMVC/)
-- [Spring Boot](SpringBoot/)
+- [**前言**](/)
+- [**Java 基础**](Java基础/)
+- [**Spring**](Spring/) 
+- [**Spring MVC**](/SpringMVC/)
+- [**Spring Boo**t](SpringBoot/)
   - [快速开始和配置文件](SpringBoot/快速开始和配置文件)
   - 模板引擎
     - [Thymeleaf基本使用](SpringBoot/Thymeleaf模板引擎)

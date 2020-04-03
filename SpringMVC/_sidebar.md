@@ -1,7 +1,7 @@
-- [前言](/)
-- [Java 基础](Java基础/)
-- [Spring](Spring/) 
-- [Spring MVC](/SpringMVC/)
+- [**前言**](/)
+- [**Java 基础**](Java基础/)
+- [**Spring**](Spring/) 
+- [**Spring MVC**](/SpringMVC/)
   - [初始化项目](SpringMVC/初始化项目)
   - [请求流程](SpringMVC/请求流程)
   - [注解式开发](SpringMVC/注解式开发)
@@ -13,6 +13,6 @@
   - [字符集过滤器的设置](SpringMVC/字符集过滤器的设置)
   - [表单类型转换器](SpringMVC/表单类型转换器)
   - [自定义错误页面](SpringMVC/自定义错误页面)
-- [Spring Boot](SpringBoot/)
+- [**Spring Boot**](SpringBoot/)
 - 埋坑
 
