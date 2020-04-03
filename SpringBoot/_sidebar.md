@@ -1,7 +1,7 @@
 - [前言](/)
 
 - [Java 基础](Java基础/)
-- [Spring](Spirng/) 
+- [Spring](Spring/) 
 - [Spring MVC](/SpringMVC/)
 - [Spring Boot](SpringBoot/)
   - [快速开始和配置文件](SpringBoot/快速开始和配置文件)

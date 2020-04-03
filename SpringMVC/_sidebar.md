@@ -1,6 +1,6 @@
 - [前言](/)
 - [Java 基础](Java基础/)
-- [Spring](Spirng/) 
+- [Spring](Spring/) 
 - [Spring MVC](/SpringMVC/)
   - [初始化项目](SpringMVC/初始化项目)
   - [请求流程](SpringMVC/请求流程)
