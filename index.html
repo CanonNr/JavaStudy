@@ -7,6 +7,7 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
 </head>
 <body>
   <nav>
@@ -16,13 +17,35 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
+
       loadNavbar: true,
       loadSidebar: true,
       subMaxLevel: 3,
       name: '',
-      repo: ''
+      repo: '',
+  
+
+    
+      
+        
+
     }
+
+
   </script>
+  <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
+<script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<script>
+  const gitalk = new Gitalk({
+    clientID: 'f33e9b54299cf0fa5c95',
+    clientSecret: 'e8cdcdee807c6ca4fa1b78bad4a68b72ef5f20ca',
+    repo: 'Github repo',
+    owner: 'Github repo owner',
+    admin: ['Github repo collaborators, only these guys can initialize github issues'],
+    // facebook-like distraction free mode
+    distractionFreeMode: false
+  })
+</script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//unpkg.com/docsify"></script>
   <script src="//unpkg.com/docsify"></script>
@@ -30,5 +53,7 @@
   <script src="//unpkg.com/prismjs/components/prism-yaml.js"></script>
   <script src="//unpkg.com/prismjs/components/prism-properties.js"></script>
   <script src="//unpkg.com/prismjs/components/prism-java.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
+
 </body>
 </html>
