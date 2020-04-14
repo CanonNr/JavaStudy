@@ -18,43 +18,42 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-
+      name: 'lksun的笔记',
       loadNavbar: true,
       loadSidebar: true,
       subMaxLevel: 3,
+      themeColor: '#FF7E00',
       name: '',
       repo: '',
-  
-
-    
-      
-        
-
+      loadSidebar: true,
+  autoHeader: true,
+   routerMode: 'history'
     }
 
 
   </script>
-  <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
-<script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
-<script>
-  const gitalk = new Gitalk({
-    clientID: 'f33e9b54299cf0fa5c95',
-    clientSecret: 'e8cdcdee807c6ca4fa1b78bad4a68b72ef5f20ca',
-    repo: 'study',
-    owner: 'CanonNr',
-    admin: ['CanonNr'],
-    // facebook-like distraction free mode
-    distractionFreeMode: false,
-    id:md5(window.location.href)
-  })
-</script>
+  
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-  <script src="//unpkg.com/docsify"></script>
-  <script src="//unpkg.com/docsify"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
+  <!-- 代码高亮 -->
   <script src="//unpkg.com/prismjs/components/prism-java.js"></script>
   <script src="//unpkg.com/prismjs/components/prism-yaml.js"></script>
   <script src="//unpkg.com/prismjs/components/prism-properties.js"></script>
   <script src="//unpkg.com/prismjs/components/prism-java.js"></script>
-
+  <!-- 搜索 -->
+  <script src="//unpkg.com/docsify/lib/plugins/search.js"></script> 
+  <!-- gitalk 评论-->
+  <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  <script>
+    const gitalk = new Gitalk({
+      clientID: 'f33e9b54299cf0fa5c95',
+      clientSecret: 'e8cdcdee807c6ca4fa1b78bad4a68b72ef5f20ca',
+      repo: 'study',
+      owner: 'CanonNr',
+      admin: ['CanonNr'],
+      distractionFreeMode: false,
+      id:md5(window.location.href)
+    })
+  </script>
 </body>
 </html>
