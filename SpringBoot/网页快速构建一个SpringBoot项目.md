@@ -33,3 +33,46 @@
 打开后首先会自动构建依赖，要做的就是等... 
 
 记得配置 **Maven** 的仓库配置文件
+
+这时候就要等一个 `Build completed successfull`
+
+### 启动
+
+ 点击 **Run DemoApplication** 启动
+
+你以为事情结束了？还差一点
+
+控制台会启动失败并返回
+
+```java
+No active profile set, falling back to default profiles: default
+Started DemoApplication in 1.071 seconds (JVM running for 3.623)
+```
+此时只需要在`pom.xml`中添加
+```xml
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-web</artifactId>
+</dependency>
+```
+
+
+
+### 测试
+
+创建如下一个方法
+
+```java
+@RestController
+public class TestController {
+    @GetMapping("/test")
+    String index(){
+        return "lksun.cn";
+    }
+}
+
+```
+
+请求一下 （因为我的默认8080被占用改成了5858端口）
+
+![1587020953492](../static/1587020953492.png)
