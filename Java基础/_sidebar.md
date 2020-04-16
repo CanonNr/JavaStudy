@@ -1,15 +1,19 @@
 - [**前言**](/)
 - [**Java 基础**](Java基础/)
   - Servlet
-    - [JSP动态渲染数据](Java基础/JSP动态渲染数据)
-    - [结合Laravel去理解Servlet和JSP](Java基础/结合Laravel去理解Servlet和JSP)
+    - [JSP动态渲染数据](Java基础/[Servlet]JSP动态渲染数据)
+    - [结合Laravel去理解Servlet和JSP](Java基础/[Servlet]结合Laravel去理解Servlet和JSP)
   - JDBC
-    - [JDBC入门](Java基础/JDBC入门)
-    - [JDBCTemplate](Java基础/JDBCTemplate)
+    - [JDBC入门](Java基础/[JDBC]JDBC入门)
+    - [JDBCTemplate](Java基础/[JDBC]JDBCTemplate)
   - Mybatis
-    - [Mybatis入门](Java基础/Mybatis入门)
-  - [Druid连接池](Java基础/Druid连接池)
-  - [数组、集合、列表区别](Java基础/数组、集合、列表区别)
+    - [Mybatis入门](Java基础/[Mybatis]Mybatis入门)
+  - 其他
+    - [Druid连接池](Java基础/[Other]Druid连接池)
+    - [数组、集合、列表区别](Java基础/[Other]数组、集合、列表区别)
+    - [方法的重写与重载](/Java基础/[Other]方法的重写与重载)
+    - [Properties配置](/Java基础/[Other]Properties配置)
+    - [Java开发规范](/Java基础/[Other]Java开发规范)
 - [**Spring**](Spring/) 
 - [**Spring MVC**](/SpringMVC/)
 - [**Spring Boot**](SpringBoot/)
