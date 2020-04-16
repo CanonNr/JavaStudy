@@ -3,7 +3,9 @@
 - [**Spring**](Spring/) 
 - [**Spring MVC**](/SpringMVC/)
 - [**Spring Boo**t](SpringBoot/)
-  - [快速开始和配置文件](SpringBoot/快速开始和配置文件)
+  - 快速开始
+    - [快速开始和配置文件](SpringBoot/快速开始和配置文件)
+    - [网页快速构建一个SpringBoot项目](SpringBoot/网页快速构建一个SpringBoot项目)
   - 模板引擎
     - [Thymeleaf基本使用](SpringBoot/Thymeleaf模板引擎)
   - MyBatis
