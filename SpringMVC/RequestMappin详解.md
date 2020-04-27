@@ -4,6 +4,7 @@
 在 Spring MVC 应用程序中，RequestDispatcher (在 Front Controller 之下) 这个 servlet 负责将进入的 HTTP 请求路由到控制器的处理方法。
 
 在对 Spring MVC 进行的配置的时候, 你需要指定请求与处理方法之间的映射关系。
+
 ![](../static/c7b415e294304c2648a1d81645966d3e.png)
 
 ### @RequestMapping 来处理多个 URI
@@ -53,7 +54,7 @@ public class IndexController {
 
 ### 用 @RequestMapping 处理 HTTP 的各种方法[GET、POST、PUT、UPDATE、DELETE...]
 
-```JAVA
+```java
 @RestController
 @RequestMapping("/home ")
 public class IndexController {
@@ -91,7 +92,7 @@ public class IndexController {
 
 -	在可以指定 header 元素的值，用 myHeader = myValue 这样的格式：
 
-```JAVA
+```java
 @RestController
 @RequestMapping("/home ")
 public class IndexController {

@@ -9,17 +9,14 @@
 | 模块     | 文件名            | 用处                        |
 | -------- | ----------------- | --------------------------- |
 | 查询工具 | com.util.JDBCUtil | 实现数据库连接              |
-|  |  |  |
 | 登录    | com.domain.User   | 根据用户表创建的类          |
 | 登录    | com.Dao.user      | 根据传入数据进行指定SQL查询 |
 | 登录    | com.servlet.login | 登录控制器                  |
 | 登录 | web/login.jsp | 登录视图 |
-|  |  |  |
 | 数据展示 | com.domain.Student | 根据用户表创建的类          |
 | 数据展示 | com.Dao.Student | 根据传入数据进行指定SQL查询 |
 | 数据展示 | com.servlet.student | 控制器                  |
 | 数据展示 | web/student.jsp | 视图 |
-|  |  |  |
 |  分页| com.domain.DataPage | 用于数据展示时返回的对象 |
 
 
